@@ -1,0 +1,46 @@
+.navbar-2{
+    margin-top: -25px;
+}
+
+.navbar-3{
+    border: 1px solid #eaeaea;
+
+    .navbar-nav{
+        a{
+            font-weight: bold;
+        }
+    }
+}
+
+.content{
+    .card{
+        a{
+            text-decoration: none;
+            color: #000;
+
+            &:hover{
+                text-decoration: none;
+                color: salmon;
+            }
+        }
+    }
+
+    .card-item{
+        min-height: 300px;
+
+        a{
+            text-decoration: none;
+            color: #fff;
+
+            &:hover{
+                text-decoration: none;
+                color: salmon;
+            }
+        }
+    }
+}
+
+.footer {
+    background-color: #000;
+    opacity: 0.8;   
+}

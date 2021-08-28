@@ -1,0 +1,63 @@
+body {
+    background-image: url('../img/pattern.jpg');
+    font-family: 'Slabo 27px',
+    serif;
+}
+
+header{
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.nav-link{
+    text-align: right;
+    margin-top: -50px;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+    color: salmon;
+}
+
+
+.container{
+    width: 1200px;
+    background-color: #fff;
+    margin: auto;
+    padding: 10px 10px 10px 10px;
+    margin-top: 80px;
+}
+
+h1{
+    text-align: center;
+}
+
+section{
+    padding-bottom: 10px;
+}
+
+article{
+    border-bottom: 1px solid black;
+    margin-top: 30px;
+}
+
+footer{
+    background-color: #000;
+    text-align: center;
+    color: #fff;
+    padding: 3px 0 3px 0;
+}
